@@ -1,0 +1,22 @@
+.container{
+    width: 500px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid darkkhaki;
+}
+.box:hover{
+    background-color: turquoise;
+    width: 100px;
+    animation: tran;
+    animation-duration: 2s;
+}
+@keyframes tran {
+    from {background-color: teal;}
+    to {background-color: black;}
+  }
